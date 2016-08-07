@@ -22,7 +22,7 @@ $ php composer.phar require kartik-v/yii2-widget-rating "*"
 ```
 4- برای بخش امتیاز دهی کد زیر که در مودال قرار گرفته را در ویو سایت خود قرار دهید
 
-```
+
 <div class="modal">
     <div class="content vertical-align-middle">
         ```php		    
@@ -33,4 +33,3 @@ $ php composer.phar require kartik-v/yii2-widget-rating "*"
         <a class="close-btn" href="#start">X</a>
     </div>
 </div>
-```
