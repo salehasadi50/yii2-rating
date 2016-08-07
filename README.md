@@ -13,7 +13,7 @@ $ php composer.phar require kartik-v/yii2-widget-rating "*"
 2- برای نصب ماژول دستور زیر را در کامپوزر پروژه خود وارد کنید
 
 ```
-$ php composer.phar require kartik-v/yii2-widget-rating "*"
+$ php composer.phar require salehasadi/yii2-rating
 ```
 3- برا بخش نمایش امتیاز دهی کاربران کد زیر را در ویو پروژه خود قرار دهید
 
