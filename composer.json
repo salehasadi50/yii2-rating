@@ -18,8 +18,9 @@
   "require": {
     "php": ">=5.3.2",
     "yiisoft/yii2": "*",
-	"yiidoc/yii2-redactor": "*",
-	"yiisoft/yii2-imagine": "~2.0.0"
+    "yiidoc/yii2-redactor": "*",
+    "yiisoft/yii2-imagine": "~2.0.0",
+    "kartik-v/yii2-widget-rating": "*"
   },
   "autoload": {
         "psr-4": {
