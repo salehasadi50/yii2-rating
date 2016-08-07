@@ -1,0 +1,29 @@
+{
+  "name": "salehasadi/yii2-rating",
+  "description": "Complete rating management system",
+  "keywords": [
+    "yii2","Rating management","Rating"
+  ],
+  "type": "yii2-extension",
+  "homepage": "http://www.yiimodules.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "salehasadi",
+      "email": "salehasadi@gmail.com",
+      "homepage": ""
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.3.2",
+    "yiisoft/yii2": "*",
+	"yiidoc/yii2-redactor": "*",
+	"yiisoft/yii2-imagine": "~2.0.0"
+  },
+  "autoload": {
+        "psr-4": {
+            "salehasadi\\rating\\": ""
+        }
+    }  
+}

@@ -1,0 +1,100 @@
+
+
+.page-container a, .page-container a:link, .page-container a:visited, .page-container a:focus {
+  padding: 3px 6px;
+  background: #484848;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+}
+.page-container > * {
+  width: 940px;
+  padding: 20px;
+  margin: 0 auto;
+  color: white;
+}
+
+/* Modal window sample styles */
+/* Vertical centering trick http://css-tricks.com/centering-in-the-unknown/ */
+.modal::before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.target {
+  display: block;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  pointer-events: none;
+ }
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  text-align: center;
+  display: none;
+  /* Fallback for legacy browsers */
+  background-color: rgba(0,0,0,0.6);
+}
+.modal > .content {
+   text-align: left;
+   display: inline-block;
+   background-color: #484848;
+   box-sizing: border-box;
+   color: white;
+   position: relative;
+   width: 500px;
+   padding: 20px;
+ }
+
+ .modal > .content .close-btn {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    width: 15px;
+    height: 15px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+ }
+
+
+
+/* Behavior on modern browsers */
+:root .modal {
+  display: block;
+  background-color: transparent;
+  transition: transform .3s cubic-bezier(0.0, -0.0, 0.0, 0.0);
+  transform-origin: center center;
+  transform: scale(1, 0);
+}
+:root .modal > .content {
+
+}
+:root .target:target + .modal {
+  transform: scale(1, 1);
+}
+.modal .content .rate{
+  background-color: #b6b6b6;
+  padding: 4px 12px 4px 12px;
+  color: #fff;
+  text-decoration: none;
+}
+.like_icon{
+  background: url(http://s6.uplod.ir/i/00806/bfnlavn66r70.png)no-repeat;
+}
+.like_icon:hover, .like-qq{
+  
+  background: url(http://s6.uplod.ir/i/00806/3d9kp8fiwkib.png)no-repeat;
+}
