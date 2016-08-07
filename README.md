@@ -24,13 +24,13 @@ $ php composer.phar require kartik-v/yii2-widget-rating "*"
 
 ```
 <div class="modal">
-	<div class="content vertical-align-middle">
-		php	    
-		<?php echo kartik\rating\StarRating::widget(['name' => 'rating_1_'. $models->id,'pluginOptions' => ['showClear'=>false], 'pluginEvents' => ["rating.change" => "send_favorite_1_" . $models->id]]);?>
+<div class="content vertical-align-middle">
+			    
+<?= kartik\rating\StarRating::widget(['name' => 'rating_1_'. $models->id,'pluginOptions' =>['showClear'=>false], 'pluginEvents' =>["rating.change" => "send_favorite_1_" . $models->id]]);?>
 
-		<p>Please rate this app</p>
-		<a href="" class="rate" id="">ثبت نظر</a>
-		<a class="close-btn" href="#start">X</a>
-	</div>
+<p>Please rate this app</p>
+<a href="" class="rate" id="">ثبت نظر</a>
+<a class="close-btn" href="#start">X</a>
+</div>
 </div>
 ```
