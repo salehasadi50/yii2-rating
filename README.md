@@ -17,7 +17,7 @@ $ php composer.phar require kartik-v/yii2-widget-rating "*"
 ```
 3- برا بخش نمایش امتیاز دهی کاربران کد زیر را در ویو پروژه خود قرار دهید
 
-```
+```php
 <?php echo kartik\rating\StarRating::widget(['name' => 'rating_35','value' => 3,'pluginOptions' => ['displayOnly' => true]]);?>
 ```
 4- برای بخش امتیاز دهی کد زیر که در مودال قرار گرفته را در ویو سایت خود قرار دهید
