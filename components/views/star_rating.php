@@ -1,3 +1,4 @@
+
 <script type="text/javascript">
 	var send_favorite_1_<?= $models->id ?> = function(event, value, caption) {
 		 $('.rate') .click (function(){
