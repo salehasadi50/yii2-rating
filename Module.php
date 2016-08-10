@@ -16,6 +16,7 @@ use yii\helpers\Url;
 class Module extends \yii\base\Module
 {
 	//Path where category images will be uploaded
+    public $services;
 	
     public function init()
     {
