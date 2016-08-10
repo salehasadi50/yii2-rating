@@ -32,5 +32,5 @@ $ php composer.phar require salehasadi/yii2-rating
 ```
 4- شما به جدولهای دیتا بیس برای ذخیره کردن نظر سنجی احتیاج دارید
 ```bash
-$ php yii migrate/up --migrationPath=@vendor/salehasadi/yii2-tag/migrations
+$ php yii migrate/up --migrationPath=@vendor/salehasadi/yii2-rating/migrations
 ```
