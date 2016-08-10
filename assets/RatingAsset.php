@@ -9,9 +9,8 @@ namespace salehasadi\rating\assets;
 
 use yii\web\AssetBundle;
 
-class VoteAsset extends AssetBundle{
+class RatingAsset extends AssetBundle{
     public $sourcePath = '@vendor/salehasadi/yii2-rating/assets';
-    public $basePath = '@vendor/salehasadi/yii2-rating/assets';
 
     public $css = [
         'css/demos.css',
