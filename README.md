@@ -52,3 +52,9 @@ $ php yii migrate/up --migrationPath=@vendor/salehasadi/yii2-rating/migrations
         ],
 ]
 ```
+6- است ها را در ویو خود اعمال کنید
+```php
+use salehasadi\rating\assets\RatingAsset;
+RatingAsset::register($this);
+
+```
